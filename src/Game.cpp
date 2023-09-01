@@ -21,7 +21,7 @@ void Game::init_window(){
         std::cout << "SDL_Init FAILED. SDL_ERROR: " << SDL_GetError() << "\n";
     }
 
-    m_window = SDL_CreateWindow("No Clue!!!", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
+    m_window = SDL_CreateWindow("Best Platformer Ever!!!", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
                                  SCREEN_WIDTH, 900, SDL_WINDOW_RESIZABLE);
 
     if (m_window == NULL){

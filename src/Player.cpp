@@ -9,7 +9,6 @@ Player::Player(SDL_Renderer* renderer) {
     m_height = 64;
 
     m_player->add_animation_component("assets/player_animation.png");
-    //m_player->add_sprite_component("assets/wtf.png");
 	m_player->add_position_component(32, 32, m_width/2, m_height/2);
 
     m_pos_x = m_player->get_position_component().get_x();
